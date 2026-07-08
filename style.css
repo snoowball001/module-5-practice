@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: all 0.3 ease-in-out;
+
+}
+nav{
+    background-color: #fff8f3;
+}
+
+.container{
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px 20px;
+    justify-content: space-between;
+}
+.container ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    
+    
+}
+.container a:hover{
+    color: #fd6e0a;
+}
+.container li{
+    list-style: none;
+    display: flex;
+
+}
+.container a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+.logo{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.logo .colored-r{
+    color: #fd6e0a;
+}
+
+.common-btn{
+    background-color: #fd6e0a;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.common-btn:hover{
+    background-color: white;
+    color: #fd6e0a;
+    border: 1px solid #fd6e0a;
+}
+.outline-btn{
+    background-color: #fcfcfc;
+    color: #fd6e0a;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid #fd6e0a;
+    cursor: pointer;
+}
+
+.outline-btn:hover{
+    background-color: #fd6e0a;
+    color: white;
+    border: none;
+}
+
+/* HEro Section */
+
+.hero-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-left{
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    gap: 20px;
+
+}
