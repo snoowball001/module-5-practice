@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Mary Hardy</title>
     <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
@@ -146,33 +148,51 @@
         <button class="common-btn">Download CV</button>
     </section>
 
-    <section class="container my-amazing-work">
-        <div class="image-gallery">
-            <img src="./images/Rectangle 8.png" alt="image-1">
-            <img src="./images/Rectangle 9.png" alt="image-2">
+      <section class="gallery-parent container">
+        <div class="gallery-text">
+            <h2>My Amazing Works</h2>
         </div>
-        <div class="image-gallery">
-            <img src="./images/Rectangle 10.png" alt="image-3">
-            <img src="./images/Rectangle 11.png" alt="image-4">
+        <div class="gallery">
+            
+            <div class="item-1">
+                <img src="./images/Rectangle 8.png" alt="image-1">
+            </div>
+            <div class="item-2">
+                <img src="./images/Rectangle 9.png" alt="image-2">
+            </div>
+            <div class="item-3">
+                <img src="./images/Rectangle 10.png" alt="Image-3">
+            </div>
+            <div class="item-4">
+                <img src="./images/Rectangle 11.png" alt="image-4">
+            </div>
+            <div class="item-5">
+                <img src="./images/Rectangle 12.png" alt="image-5">
+            </div>
+            <div class="item-6">
+                <img src="./images/Rectangle 13.png" alt="image-6">
+            </div>
         </div>
-        <div class="image-gallery">
-            <img src="./images/Rectangle 12.png" alt="image-5">
-            <img src="./images/Rectangle 13.png" alt="image-6">
-        </div>
-    </section>
+      </section>
 
     <footer class="container footer-parent">
         <div class="footer-left">
-            <h5>Let's Connect</h5>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, beatae!</p>
+            <h3>Let's Connect</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, beatae! Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <span><i class="fa-brands fa-facebook-f"></i></span>
+            <span><i class="fa-brands fa-twitter"></i></span>
+            <span><i class="fa-brands fa-instagram"></i></span>
         
         </div>
 
         <div class="footer-right">
-            <h5>let's message me</h5>
-            <input type="text" placeholder="Your Name">
-            <input type="email" placeholder="Your email">
-            <textarea rows="5" placeholder="Message"></textarea>
+            <h3>let's message me</h3>
+            <form>
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your email">
+                <textarea rows="5" placeholder="Message"></textarea>
+                <button class="common-btn">Submit</button>
+            </form>
         </div>
     </footer>
 
