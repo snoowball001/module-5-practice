@@ -189,7 +189,7 @@ nav{
     display: flex;
     justify-content: space-between;
     gap: 15px;
-    margin-top: 1`;
+    margin-top: 10px;
     line-height: 1.5;
 
 
@@ -257,8 +257,8 @@ nav{
 }
 .divider{
     border: none;
-    border-top: 1ps solid #474747;
-    margin: 25px p;
+    border-top: 1px solid #474747;
+    margin: 25px;
     width: 100%;
 }
 .resume-card{
@@ -359,6 +359,8 @@ z-index: 10;
 }
 .footer-right h3{
     font-size: 1.8rem;
+    margin-bottom: 15px;
+
 }
 .footer-right form{
     /* display: inline-flex; */
@@ -367,4 +369,18 @@ z-index: 10;
     /* text-align: start; */
     background: #ffffff;
     padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.footer-right form input,
+.footer-right form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: 1px solid #fff8f3;
+    outline: none;
+    font-size: 1rem;
+    transition: 0.3s;
 }
